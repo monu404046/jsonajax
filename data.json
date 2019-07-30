@@ -1,0 +1,29 @@
+[{
+    "name":"ashwin",
+    "dob":"26/08/1994",
+    "mobno":9400142189,
+    "collage":"uit"
+},
+{
+    "name":"rahul",
+    "dob":"6/05/1994",
+    "mobno":9400152189,
+    "collage":"uit"
+},
+{
+    "name":"sunny",
+    "dob":"21/09/1993",
+    "mobno":947525989,
+    "collage":"uit"
+},{
+    "name":"monu",
+    "dob":"22/10/1991",
+    "mobno":947525956,
+    "collage":"uit"
+},
+{
+    "name":"sam",
+    "dob":"12/10/1998",
+    "mobno":956255555,
+    "collage":"uit"
+}]

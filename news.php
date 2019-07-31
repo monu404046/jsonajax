@@ -1,3 +1,3 @@
 <?php
-header('Location:news.html')
+header('Location:news.html');
 ?>

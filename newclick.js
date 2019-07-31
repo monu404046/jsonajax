@@ -9,13 +9,13 @@ $(document).ready(function(){
              
                for(var i in data){
                  
-                     output+="<div class='border-primary mb-3'style='max-width: 18rem'><h5 class='header bg-primary'style='max-width: 18rem'>"+data[i].id+"</h5>"
-                     output+="<div class='card-body bg-secondary mb-3'><h5 class='card-title'>"+data[i].name+"</h5></div>"
+                     output+="<div class='container'><div class='row'>'<div class='col-4'> <div class='card-deck'><div class='card text-center'><div class='card-block'><h4 class='card-title'>"+data[i].id+"</h4>"
+                     output+="<div class='card-body bg-secondary mb-3'><h4 class='card-title'>"+data[i].name+"</h4></div>"
                     output+="<p class='card-text'>"+data[i].username+"</p>"
                     output+="<p class='card-text'>"+data[i].email+"</p>"
-                  
+                    output+="<p class='card-text'> <div class='card-footer bg-primary'>"+data[i].website+"</p></div>"
                
-                  output+= "</div>";
+                  output+= "</div></div><br><br></div>";
                }
                $("#result").html(output);
             }
